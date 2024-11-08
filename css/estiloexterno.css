@@ -1,0 +1,26 @@
+/* Estilos Externos de CSS*/
+
+* {
+    text-align: center;
+}
+
+h1 {
+    color: violet; 
+    background-color: snow; 
+    font-size: 35px;
+}
+
+h3 {
+    color: black; 
+    background-color: red;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+button {
+    color: white; 
+    background-color: brown; 
+    border-radius: 10px; 
+}
