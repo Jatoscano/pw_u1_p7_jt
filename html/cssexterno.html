@@ -21,6 +21,14 @@
     <section>
         <h2>Facultad de Ciencias F&#237;sicas y Matem&#225;ticas</h2>
         <h3>2&#60;3</h3>
+        <h4 class="titulos">Estudiantes de Computaci&#243;n</h4>
+        <h5 class="titulos">Estudiantes de Programaci&#243;n Web</h5>
+        <!--Se hacer referencia al elemento y es a traves de class-->
+        <label class="titulos" for="idinputnombre">Nombre:</label>
+        <!--Se considera el id para la implementacion de la clase, en CSS se coloca un . y despues el nombre de la clase-->
+        <input id="idinputnombre" type="text" >
+        <label class="titulos" for="idinputapellido">Apellido:</label>
+        <input id="idinputapellido" type="text">
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Ratione at temporibus voluptatibus qui, 
@@ -39,6 +47,19 @@
         </p>
         <button>Guardar</button>
         <button>Guardar</button>
-
+        <!--Carga de una imagen desde la carpeta img-->
+        <img src="../img/img1.jpg" alt="Imagen 1" width="200" height="200">
+        <!--Carga de una imagen desde una URL que no es publica-->
+        <img src="https://pixabay.com/es/photos/enlace-piezas-url-explorador-corto-5219567/" alt="No se puedo cargas la imagen" width="200" height="200">
+        <!--Carga de una imagen desde una URL publica-->
+        <img src="https://daca-altadireccion.com/wp-content/uploads/2019/01/Imagen-P%C3%BAblica.png" alt="Imagen 3" width="200" height="200">
+        <input type="text">
+        <input type="number">
+        <input type="datetime">
+        <input type="password">
+    </section>    
+        <footer>
+            <h6 id="id_pie_pagina_uce">&#174;Todos los Derechos Reservados</h6>
+        </footer>
 </body>
 </html>

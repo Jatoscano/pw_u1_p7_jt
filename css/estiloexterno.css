@@ -1,5 +1,5 @@
 /* Estilos Externos de CSS*/
-
+/*Estilo para Centrados Generales*/
 * {
     text-align: center;
 }
@@ -23,4 +23,102 @@ button {
     color: white; 
     background-color: brown; 
     border-radius: 10px; 
+}
+
+/*Selector por Clase*/
+.titulos {
+    color: green; 
+    background-color: yellow; 
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Selector por Id*/
+#id_pie_pagina_uce {
+    color: crimson; 
+    background-color: black; 
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Selector por Tipo de Atributo - Elemento*/
+img[src] {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 60%;
+}
+
+/*Selector por URL*/
+/*
+img[src="https://daca-altadireccion.com/wp-content/uploads/2019/01/Imagen-P%C3%BAblica.png"] {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 60%;
+}
+*/
+
+/* Se puede generar una especificacion al atributo o formato del elemento*/
+/*
+img[src*=".png"] {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 60%;
+}
+*/
+
+input[type="text"] {
+    color: violet;
+    background-color: chartreuse;
+    width: 200px; 
+    height: 30px; 
+    border-radius: 10px;
+    align-items: center;
+}
+
+input[type="number"] {
+    color: rgb(36, 39, 197);
+    background-color: rgb(154, 192, 19);
+    width: 200px; 
+    height: 30px; 
+    border-radius: 10px;
+    align-items: center;
+}
+
+input[type="datetime"] {
+    color: rgb(231, 35, 77);
+    background-color: rgb(158, 185, 241);
+    width: 200px; 
+    height: 30px; 
+    border-radius: 10px;
+    align-items: center;
+}
+
+input[type="password"] {
+    color: rgb(36, 39, 197);
+    background-color: rgb(154, 192, 19);
+    width: 200px; 
+    height: 30px; 
+    border-radius: 10px;
+    align-items: center;
+}
+
+/*Selector por Pseudo-Clase*/
+button:hover {
+    color: rgb(105, 11, 11); 
+    background-color: rgb(163, 183, 14); 
+    border-radius: 10px;
+}
+
+.titulos:hover {
+    color: rgb(114, 210, 227); 
+    background-color: rgb(163, 183, 14); 
+    border-radius: 10px;
+}
+
+/*Combinacion de Selectores*/
+
+h1, h3, h5 {
+    color: rgb(20, 146, 45); 
+    background-color: rgb(141, 26, 133); 
+    border-radius: 10px;
 }
