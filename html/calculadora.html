@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora En Linea</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+        <ul id="idmenu">
+            <li>Calculadora 1</li>
+            <li>Calculadora 2</li>
+            <li>Calculadora 3</li>
+        </ul>    
+    </nav>
+    <section>
+        <label id="label1" for="numero1">N&#250;mero 1</label>
+        <input id="numero1">
+        <label id="label2" for="numero2">N&#250;mero 2</label>
+        <input id="numero2">
+
+        <br>
+        <!-- style.color es una propiedad a nivel de css , esto en javascript-->
+        <button id="cambiarn" onclick="document.getElementById('label1').style.color='yellow'">Cambiar Color</button>
+        <button id="cambiart" onclick="document.getElementById('label2').style.fontSize='25px'">Cambiar Tama&#241;o</button>
+        <button id="cambiart" onclick="document.getElementById('label1').innerText='Nuevo Valor'">Cambiar Texto</button>
+        <button id="agregart" onclick="document.getElementById('idmenu').innerHTML=document.getElementById('idmenu').innerHTML+'<li>Calculadora 4</li>'">Agregar Elemento</button>
+    </section>
+    <footer></footer>
+</body>
+</html>

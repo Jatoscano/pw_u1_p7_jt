@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Externa</title>
+    <script src="../js/jsexterno.js"></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+        <ul id="idmenu">
+            <li>Calculadora 1</li>
+            <li>Calculadora 2</li>
+            <li>Calculadora 3</li>
+        </ul>    
+    </nav>
+    <section>
+        <label id="label1" for="numero1">N&#250;mero 1</label>
+        <input id="numero1" type="number">
+        <label id="label2" for="numero2">N&#250;mero 2</label>
+        <input id="numero2" type="number">
+
+        <br>
+        <!-- style.color es una propiedad a nivel de css , esto en javascript-->
+        <button id="cambiarn" onclick="cambiarColor('label2', 'red')">Cambiar Color</button>
+        <button id="cambiart" onclick="cambiarTamanio('label1', '40px')">Cambiar Tama&#241;o</button>
+        <button id="cambiart1" onclick="cambiarTexto('label1', 'Valor Modificado 1')">Cambiar Texto 1</button>
+        <button id="cambiart2" onclick="cambiarTexto('label2', 'Valor Modificado 2')">Cambiar Texto 2</button>
+        <button id="agregart" onclick="agregarElemento('idmenu', '<li>Calculadora 4</li>')">Agregar Elemento</button>
+    </section>
+    <footer></footer>
+    
+</body>
+</html>
