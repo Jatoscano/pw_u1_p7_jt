@@ -18,6 +18,9 @@
         function agregarElemento(idelemento, elementohtml){
             document.getElementById(idelemento).innerHTML=document.getElementById(idelemento).innerHTML+elementohtml;
         }
+        function cambiarBack(idelemento, background){
+            document.getElementById(idelemento).style.background=background
+        }
     </script>
 </head>
 <body>
@@ -44,6 +47,7 @@
         <button id="cambiart1" onclick="cambiarTexto('label1', 'Valor Modificado 1')">Cambiar Texto 1</button>
         <button id="cambiart2" onclick="cambiarTexto('label2', 'Valor Modificado 2')">Cambiar Texto 2</button>
         <button id="agregart" onclick="agregarElemento('idmenu', '<li>Calculadora 4</li>')">Agregar Elemento</button>
+        <button onclick="cambiarBack('label2','black')">Agregar Background</button>
     </section>
     <footer></footer>
 </body>
