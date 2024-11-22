@@ -18,7 +18,7 @@
     border: solid crimson;
     border-radius: 10px;
     background: rgb(176, 190, 199);
-    box-shadow: 15px 10px 5px 5px rgba(5, 4, 4, 0.1);
+    box-shadow: 15px 10px 5px 5px rgba(5, 4, 4, 0.5);
 }
 
 .display{
@@ -46,6 +46,34 @@
     /* Estilos de la columna 2 */
     grid-column: span 2;
 }
+
+button {
+    cursor: pointer;
+    border: solid rgb(89, 64, 228);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 40px;
+    border: outset;
+    background: rgb(206, 221, 230);
+    font-size: 25px;
+    color: black;
+    box-shadow: 7px 5px 5px 5px rgba(5, 4, 4, 0.3);
+    
+}
+
+/* Inicia la activacion sobre el boton*/
+button:hover{
+    /* Efecto de pasar el mouse por encima del boton */
+    background: rgb(89, 64, 228);
+    color: rgb(206, 221, 230);
+}
+
+/* Se activa cuando se presiona el boton */
+button:active{
+    /* Efecto de presionar el boton */
+    background: rgb(143, 152, 235);
+}
+
 /*
 #num5{
     /* Estilos del boton 5 */
