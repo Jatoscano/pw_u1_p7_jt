@@ -1,0 +1,59 @@
+.container{
+    /* Manipular de manera felxible el contenido del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    /* Fondo de la página */
+    background-color: #27c544;
+}
+
+p::before{
+    /* Agregar contenido antes de un elemento */
+    /* con el atrr(type) toma referencia del nombre del atributo */
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #322a2a;
+}
+
+input{
+    /* Estilo de los inputs */
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 2px solid #322a2a;
+    box-sizing: border-box;
+    background: none;
+}
+
+input:focus {
+    /* Estilo de los inputs cuando se encuentran en foco */
+    outline: none;
+    border-bottom: 5px solid #45dd61;
+}
+
+h2{
+    /* Estilo de los títulos */
+    color: #322a2a;
+    border-bottom: 3px solid #4b1a1a;
+    margin: 10px 2px;
+    width: 100px;
+}
+
+form{
+    /* Estilo del formulario */
+    width: 300px;
+    height: 470px;
+    background: #e6e6e6;
+    padding: 20px 20px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 15px 10px 5px 5px #322a2a;   
+}
